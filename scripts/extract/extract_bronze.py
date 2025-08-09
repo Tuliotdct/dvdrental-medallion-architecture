@@ -1,7 +1,7 @@
 import pandas as pd
 from sqlalchemy import inspect
 from dotenv import load_dotenv
-from configs.rds_postgres_connection import get_connection
+from credentials.rds_postgres_connection import get_connection
 import boto3
 import io
 import os

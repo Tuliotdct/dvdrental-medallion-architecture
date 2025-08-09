@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.engine import URL
-from configs.aws_secrets import get_secret
+from credentials.aws_secrets import get_secret
 from dotenv import load_dotenv
 
 
